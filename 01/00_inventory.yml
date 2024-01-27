@@ -1,0 +1,10 @@
+all:
+  children:
+    common:
+      children:
+        webserver:
+          hosts:
+            node2;
+        dbserver:
+          hosts:
+            myvps;
